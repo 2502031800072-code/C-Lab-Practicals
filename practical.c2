@@ -1,1 +1,59 @@
+Aim: To write a C program to perform traversal, insertion, deletion, and searching operations on an array.
 
+#include <stdio.h>
+
+int main()
+{
+    int a[100] = {10, 20, 30, 40};
+    int n = 4, i, pos, value, key, found = 0;
+
+    // Traversal
+    printf("Original Array: ");
+    for(i = 0; i < n; i++)
+        printf("%d ", a[i]);
+
+    // Insertion
+    pos = 2;
+    value = 15;
+
+    for(i = n; i >= pos; i--)
+        a[i] = a[i - 1];
+
+    a[pos - 1] = value;
+    n++;
+
+    printf("\nAfter Insertion: ");
+    for(i = 0; i < n; i++)
+        printf("%d ", a[i]);
+
+    // Deletion
+    pos = 3;
+
+    for(i = pos - 1; i < n - 1; i++)
+        a[i] = a[i + 1];
+
+    n--;
+
+    printf("\nAfter Deletion: ");
+    for(i = 0; i < n; i++)
+        printf("%d ", a[i]);
+
+    // Searching
+    key = 30;
+
+    for(i = 0; i < n; i++)
+    {
+        if(a[i] == key)
+        {
+            printf("\nElement %d found at position %d",
+                   key, i + 1);
+            found = 1;
+            break;
+        }
+    }
+
+    if(found == 0)
+        printf("\nElement not found");
+
+    return 0;
+}
