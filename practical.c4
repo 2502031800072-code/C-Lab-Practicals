@@ -94,3 +94,7 @@ int main()
 
     return 0;
 }
+output
+
+Enter infix expression: A+B*C
+Postfix Expression: ABC*+
