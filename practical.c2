@@ -57,3 +57,20 @@ int main()
 
     return 0;
 }
+output 
+
+Enter number of elements: 4
+Enter array elements:
+10 20 30 40
+
+Array elements: 10 20 30 40
+
+Enter position for insertion: 2
+Enter value: 15
+After insertion: 10 15 20 30 40
+
+Enter position for deletion: 3
+After deletion: 10 15 30 40
+
+Enter element to search: 30
+Element found at position 3
