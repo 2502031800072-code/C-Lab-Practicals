@@ -119,3 +119,9 @@ void displayList(struct Node* node) {
     }
     printf("NULL\n");
 }
+output
+
+Original List: 10 -> 20 -> 30 -> 40 -> 50 -> NULL
+After deleting from beginning: 20 -> 30 -> 40 -> 50 -> NULL
+After deleting from end: 20 -> 30 -> 40 -> NULL
+After deleting from position 2: 20 -> 40 -> NULL
