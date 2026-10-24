@@ -141,3 +141,16 @@ void main() {
     freeList(head);
     getch();
 }
+output
+
+Inserted 10 at the beginning.
+Inserted 20 at the beginning.
+Linked List: 20 -> 10 -> NULL
+Inserted 30 at the end.
+Inserted 40 at the end.
+Linked List: 20 -> 10 -> 30 -> 40 -> NULL
+Inserted 15 at position 2.
+Linked List: 20 -> 15 -> 10 -> 30 -> 40 -> NULL
+Inserted 5 at the beginning.
+Linked List: 5 -> 20 -> 15 -> 10 -> 30 -> 40 -> NULL
+Invalid position! Position is out of bounds.
