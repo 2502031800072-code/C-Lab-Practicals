@@ -113,3 +113,30 @@ int main()
 
     return 0;
 }
+output
+
+--- QUEUE MENU ---
+1. INSERT
+2. DELETE
+3. DISPLAY
+4. EXIT
+Enter your choice: 1
+Enter value: 10
+Element inserted successfully.
+
+Enter your choice: 1
+Enter value: 20
+Element inserted successfully.
+
+Enter your choice: 1
+Enter value: 30
+Element inserted successfully.
+
+Enter your choice: 3
+Queue elements: 10 20 30
+
+Enter your choice: 2
+Deleted element: 10
+
+Enter your choice: 3
+Queue elements: 20 30
