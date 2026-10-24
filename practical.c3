@@ -151,3 +151,39 @@ int main()
 
     return 0;
 }
+output
+
+--- STACK MENU ---
+1. PUSH
+2. POP
+3. PEEP
+4. CHANGE
+5. DISPLAY
+6. EXIT
+Enter your choice: 1
+Enter value: 10
+Element pushed successfully.
+
+Enter your choice: 1
+Enter value: 20
+Element pushed successfully.
+
+Enter your choice: 5
+Stack elements (TOP to BOTTOM):
+20
+10
+
+Enter your choice: 3
+Enter position from TOP: 2
+Element: 10
+
+Enter your choice: 4
+Enter position from TOP: 1
+Enter new value: 25
+Element changed successfully.
+
+Enter your choice: 2
+Deleted element: 25
+
+Enter your choice: 6
+Program terminated.
